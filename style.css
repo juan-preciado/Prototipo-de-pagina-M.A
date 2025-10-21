@@ -385,7 +385,7 @@ footer{
 /*-----------------Index 04------------------*/
 
 .planes{
-    background-image: url("images/Escenario 2.jpg");
+    background-image: url(images/escenario\ 3.png);
     background-size: 1580px 820px;
     background-repeat: no-repeat;
     background-position: center;
@@ -424,5 +424,79 @@ footer{
 }
 
 .planes-1{
-    
+    background-image: url(images/escenario\ 3.png);
+    background-size: 1580px 820px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.planes-1 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.planes-1 p{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(3, 0, 31);
+    margin: 5%;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.planes-2{
+    background-image: url(images/escenario\ 3.png);
+    background-size: 1580px 820px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.planes-2 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.planes-2 p{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(3, 0, 31);
+    margin: 5%;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
 }
