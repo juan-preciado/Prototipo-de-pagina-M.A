@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+*{box-sizing:border-box}
 
 nav {
     color: white;
@@ -543,7 +540,18 @@ footer{
 }
 
 .formularios{
-    background-image: url(images/556241-everlasting.jpg);
+    background-image: url(images/974796.png);
+    background-size: 1920px 1080px;
+}
+
+.formularios h2{
+    background-color: #07063a;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    margin-left: 0%;
+    margin-right: 25%;
 }
 
 label{
@@ -554,6 +562,9 @@ label{
     background-color: #0a0014;
     border-radius: 8px;
     color: white;
+    
+    margin-right: 25%;
+    padding-left: 0px;
 }
 input[type="text"],
 input[type="password"],
@@ -577,7 +588,121 @@ input[type="radio"],
 input[type="checkbox"]{margin-right:.4rem}
 
 .formulario-1{
+    background-color: #2d004b;
     padding: 30px;
-    margin: 25px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
 
+.formulario-2{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"]{margin-right:.4rem}
+
+fieldset{
+    border:1px dashed var(--border);
+    border-radius:10px;
+    padding:1rem;
+    margin:1rem 0;
+}
+
+legend{padding:0 .4rem; color:#334155; font-weight:600}
+
+button,
+input[type="submit"]{
+    appearance:none;
+    display:inline-block;
+    border:0;
+    background-color: black;
+    color: white;
+    padding:.65rem 1rem;
+    border-radius:10px;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:1rem;
+}
+
+.form-container{
+    width:80%;
+    max-width:500px;
+    margin:2rem auto;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:1.25rem 1.25rem 1.5rem;
+    box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+
+.formulario-3{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.formulario-4{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.formulario-5{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.formulario-6{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.formulario-7{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.formulario-8{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.formulario-9{
+    background-color: #2d004b;
+    padding: 30px;
+    margin-right: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
 }
