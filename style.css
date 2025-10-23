@@ -35,8 +35,7 @@ header {
 
 .Bienvenida {
     background-image: url(images/Escenario.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
 }
 
 .Bienvenida h1 {
@@ -63,7 +62,7 @@ header {
 
 .que-es{
     background-image: url(images/Escenario\ 2.jpg) ;
-    background-size: 1680px 920px;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +131,7 @@ header {
 
 .que-es-2 {
     background-image: url(images/otro-escenario.jpg);
-    background-size: 1680px 920px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -187,7 +186,7 @@ footer{
 
 .proyectos-1{
     background-image: url(images/974796.png);
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -345,7 +344,7 @@ footer{
 
 .proyectos-4{
     background-image: url(images/Cielo\ Rojo\ para\ PC.jfif);
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -383,7 +382,7 @@ footer{
 
 .planes{
     background-image: url(images/escenario\ 3.png);
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -422,7 +421,7 @@ footer{
 
 .planes-1{
     background-image: url(images/Cielo\ Rojo\ para\ PC.jfif);
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -461,7 +460,7 @@ footer{
 
 .planes-2{
     background-image: url(images/974796.png);
-    background-size: 1920px 1080px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -708,6 +707,32 @@ input[type="submit"]{
 }
 
 /*------------index 06----------*/
+
+
+
+.lista-de-arriba nav ul
+{
+    background-color: black;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.lista-de-arriba li {
+    display: inline-flex;
+}
+
+.lista-de-arriba a {
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.lista-de-arriba li:hover {
+    background-color: purple;
+}
 
 .pagina-final-entera{
     background-image: url(images/556241-everlasting.jpg);
