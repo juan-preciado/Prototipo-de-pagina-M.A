@@ -1343,3 +1343,13 @@ input[type="checkbox"]{margin-right:.4rem}
     padding: 30px;
     margin: 25px;
 }
+
+legend{
+    display:block; 
+    margin:.5rem 0 .25rem;
+    text-align: center;
+    padding: 10px;
+    background-color: #0a0014;
+    border-radius: 8px;
+    color: white;
+}
