@@ -760,3 +760,586 @@ input[type="submit"]{
     border-radius: 8px;
     font-size: 26px;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    width: 80%;
+    height: 50%; 
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    color: #222; 
+    background: #2e0052; 
+}
+
+
+header { 
+    background: black;
+    padding: 15px;
+}
+
+.banner img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    padding: 40px;
+}
+
+.Bienvenida {
+    background-image: url(images/Escenario.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Bienvenida h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.Bienvenida p{
+    margin: 5%;
+    padding: 50px;
+    background-color: rgb(3, 0, 31);
+    color: white;
+    border-radius: 8px;
+}
+
+.Bienvenida img{
+    height: 10%;
+    width: 10%;
+    padding: 25px;
+}
+
+.que-es{
+    background-image: url(images/Escenario\ 2.jpg) ;
+    background-size: 1680px 920px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(3, 0, 31);
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.que-es h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    padding-left: 2%;
+    padding: 5%;
+    background-color: rgb(0, 0, 75);
+    margin-right: 50%;
+    border-radius: 8px;
+}
+
+.que-es .texto{
+    flex: 1;
+    min-width: 250px;
+    max-width: 60%;
+    color: aqua;
+}
+
+.que-es h3{
+    color: aqua;
+    padding-left: 2%;
+    background-color: rgb(3, 0, 31);
+    margin: 2%;
+    padding: 5%;
+    margin-right: 50%;
+    border-radius: 8px;
+    border-bottom: 5% #222;
+}
+
+.que-es ul{
+     color: aqua;
+     font-size: 25px;
+     padding-left: 2%;
+     background-color: rgb(3, 0, 31);
+     margin: 2%;
+     padding: 5%;
+     margin-right: 50%;
+     border-radius: 8px;
+}
+
+.que-es img{
+    flex-shrink: 0;
+    width: 35%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 2%;
+}
+
+/*---------index 2--------*/
+
+.que-es-2 {
+    background-image: url(images/otro-escenario.jpg);
+    background-size: 1680px 920px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.que-es-2 h1 {
+    padding-top: 30px;
+    margin-right: 50%;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+    border-radius: 8px;
+}
+
+.que-es-2 p{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(3, 0, 31);
+    margin: 5%;
+    color: white;
+    border-radius: 8px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.que-es-2 p img{
+    margin-top: 50px;
+    align-self: center;
+    width: 300px;
+    height: auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color: #0a0014;
+}
+
+/*---------index 3--------*/
+
+.proyectos-1{
+    background-image: url(images/974796.png);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.proyectos-1 h1{      
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.proyectos-1 p{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(3, 0, 31);
+    margin: 5%;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.proyectos-2 {
+  background-image: url("images/Escenario 2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: rgb(3, 0, 31);
+  border-radius: 10px;
+  padding: 2%;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+.proyectos-2 h2 {
+  color: white;
+  background-color: rgb(0, 0, 75);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.proyectos-2 .texto-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.proyectos-2 p {
+  flex: 1;
+  background-color: rgba(3, 0, 31, 0.9);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 25px;
+}
+
+
+.proyectos-2 img {
+  width: 30%;
+  max-width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: stretch; 
+  margin-left: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+@media (max-width: 768px) {
+  .proyectos-2 .contenido {
+    flex-direction: column;
+  }
+
+  .proyectos-2 img {
+    width: 50%;
+    max-width: none;
+    height: auto;
+    align-self: center;
+  }
+}
+
+.proyectos-3{
+    background-image: url("images/escenario\ 3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(3, 0, 31);
+    border-radius: 10px;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.proyectos-3 h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 60%;
+    background-color: rgb(0, 0, 75);
+}
+
+.proyectos-3 .texto-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.proyectos-3 p{
+    flex: 1;
+  background-color: rgba(3, 0, 31, 0.9);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.proyectos-3 img {
+  width: 30%;
+  max-width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: stretch; 
+  margin-left: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.proyectos-4{
+    background-image: url(images/Cielo\ Rojo\ para\ PC.jfif);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.proyectos-4 h2{
+    color: white;
+  background-color: rgb(0, 0, 75);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.proyectos-4 p{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(3, 0, 31);
+    margin: 5%;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+/*-----------------Index 04------------------*/
+
+.planes{
+    background-image: url(images/escenario\ 3.png);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.planes h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.planes p{
+    flex: 1;
+  background-color: rgba(3, 0, 31, 0.9);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.planes-1{
+    background-image: url(images/Cielo\ Rojo\ para\ PC.jfif);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.planes-1 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.planes-1 p{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(3, 0, 31);
+    margin: 5%;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.planes-2{
+    background-image: url(images/974796.png);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.planes-2 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.planes-2 p{
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(3, 0, 31);
+    margin: 5%;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+/*-----------index 05-----------*/
+
+.ayuda{
+    background-image: url(images/1196179.jpg);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ayuda h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(0, 0, 75);
+}
+
+.ayuda p{
+    flex: 1;
+  background-color: rgba(3, 0, 31, 0.9);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.formularios{
+    background-image: url(images/556241-everlasting.jpg);
+}
+
+label{
+    display:block; 
+    margin:.5rem 0 .25rem;
+    text-align: center;
+    padding: 10px;
+    background-color: #0a0014;
+    border-radius: 8px;
+    color: white;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    padding:.6rem .7rem;
+    border:1px solid var(--border);
+    border-radius:8px;
+    font:inherit;
+    background:#fff;
+}
+
+textarea{min-height:120px; resize:vertical}
+
+input[type="radio"],
+input[type="checkbox"]{margin-right:.4rem}
+
+.formulario-1{
+    padding: 30px;
+    margin: 25px;
+}
