@@ -32,121 +32,79 @@
         </div>
     </section>
     <section class="formularios">
-        <div class="formulario-1">
-        <form method="post">
-            <label for="username"><b>Usuario</b></label>
-            <input type="text" id="username" name="username" maxlength="30" placeholder="Escribe tu nombre">
-        </form>
-        <br>
-        <hr>
-        <br>
-        <form method="post">
-            <label for="user3">Usuario</label>
-            <input type="text" id="user3" name="username" maxlength="30">
-            <label for="pass3">Contraseña</label>
-            <input type="password" id="pass3" name="password" maxlength="30">
-        </form>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="formulario-2">
-        <form method="post">
-            <h2><strong>¿Cómo quieres ayudar?</strong></h2>
-            <label><input type="radio" name="tipo_de_ayuda" value="musica-ost" checked>Música/OST</label>
-            <label><input type="radio" name="tipo_de_ayuda" value="diseño-grafico" checked> Arte/Diseño Gráfico</label>
-            <label><input type="radio" name="tipo_de_ayuda" value="colaborador-guion" checked> Colaborar con el guion</label>
-            <label><input type="radio" name="tipo_de_ayuda" value="actor" checked> Actor/Actor de doblaje</label>
-            <label><input type="radio" name="tipo_de_ayuda" value="diseño-de-personajes" checked> Diseñar personajes</label>
-            <label><input type="radio" name="tipo_de_ayuda" value="otro" checked> ¿Otro?</label>
-            <form method="post">
-                <label for="comments">Si es la última, escribelo aquí.</label>
-                <textarea id="comments" name="comments" rows="4"
-                placeholder="Escribelo aquí..."> </textarea>
-            </form>
-        </form>
-        </div>
-        <br>
-        <hr>
-        <div class="formulario-3">
-            <form method="post">
-                <h2><strong>¿Por qué me quieres ayudar?</strong></h2>
-                <label><input type="checkbox" name="por-que" value="itunes" checked>Por diversión.</label>
-                <label><input type="checkbox" name="por-que" value="dinero" checked>Quiero ganar dinero</label>
-                <label><input type="checkbox" name="por-que" value="otro" checked>¿Otro?</label>
-                <label for="comments">Si es la última, escribelo aquí.</label>
-                <textarea id="comments" name="comments" rows="4"
-                placeholder="Escribelo aquí..."> </textarea>
-            </form>
-        </div>
-        <br>
-        <hr>
-        <div class="formulario-4">
-            <h2><strong>Sube tu currículum.</strong></h2>
-            <form method="post">
-                <label for="file">No dudo de tus habilidades pero... Sube tu currículum (PDF)</label>
-                <input type="file" id="file" name="archivo" accept="Microsoft Edge PDF Document">
-            </form>
-        </div>
-        <br>
-        <hr>
-        <div class="formulario-5">
-            <form action="actividad11.html" method="post">
-                <label for="email10">Suscríbete a nuestra lista de correo</label>
-                <input type="email" id="email10" name="email" required placeholder="tu@correo.com">
-            </form>
-        </div>
-        <br>
-        <hr>
-        <div class="formulario-6">
-            <form action="actividad13.html" method="post">
-                <label for="age">Edad:</label>
-                <input type="number" id="age" name="age" min="0" step="1" required>
-                <h2><strong>Preferencia de contacto</strong></h2>
-                <input id="contact_email" type="radio" name="contact_pref" value="email" checked>
-                <label for="contact_email">Correo electrónico</label>
-                <input id="contact_phone" type="radio" name="contact_pref" value="telefono" checked>
-                <label for="contact_phone">Teléfono</label>
-            </form>
-        </div>
-        <br>
-        <hr>
-        <div class="formulario-7">
-            <form method="post">
-                <Fieldset>
-                    <legend>Datos de contacto</legend>
-                    <label for="email13">Correo electrónico</label>
-                    <input type="email" id="email13" name="email">
-                    <label for="movil13">Teléfono móvil</label>
-                    <input type="tel" id="movil13" name="mobile">
-                    <label for="tel13">Teléfono fijo</label>
-                    <input type="tel" id="tel13" name="telephone">
-                </fieldset>
-            </form>
-        </div>
-        <br>
-        <hr>
-        <div class="formulario-8">
-            <form method="post">
-                <legend>Datos de contacto</legend>
-                <label for="user14">Usuario:</label>
-                <input type="text" id="user14" name="username" required>
-                <label for="pass14">Contraseña:</label>
-                <input type="password" id="pass14" name="password" required>
-            </form>
-        </div>
-        <br>
-        <hr>
-        <div class="formulario-9">
-            <form action="index06.html" method="post">
-                <legend>Datos de contacto</legend>
-                <label for="birthdate">Fecha de nacimiento:</label>
-                <input type="date" id="birthdate" name="birthdate">
-            </form>
-            <input type="submit" value="Finalizar">
-        </div>
-        <br>
-    </section>
+  <h1><b><i>¿Quieres ayudar?</i></b></h1>
+  <p>
+    Es muy amable de tu parte que quieras venir a ayudar en un proyecto como este. 
+    Significa mucho para mí, pues intentar hacer un canal de fan-films no es sencillo 
+    y no puedo hacer todo por mí mismo.
+  </p>
+  <form class="formulario-general" action="index06.html" method="get">
+    <fieldset>
+      <legend>Datos personales</legend>
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" name="username" maxlength="30" placeholder="Escribe tu nombre" required>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" maxlength="30" required>
+
+      <label for="age">Edad:</label>
+      <input type="number" id="age" name="age" min="0" step="1" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>¿Cómo quieres ayudar?</legend>
+      <label><input type="radio" name="tipo_de_ayuda" value="musica-ost"> Música/OST</label>
+      <label><input type="radio" name="tipo_de_ayuda" value="diseño-grafico"> Arte/Diseño Gráfico</label>
+      <label><input type="radio" name="tipo_de_ayuda" value="colaborador-guion"> Colaborar con el guion</label>
+      <label><input type="radio" name="tipo_de_ayuda" value="actor"> Actor/Actor de doblaje</label>
+      <label><input type="radio" name="tipo_de_ayuda" value="diseño-de-personajes"> Diseñar personajes</label>
+      <label><input type="radio" name="tipo_de_ayuda" value="otro"> Otro</label>
+
+      <label for="comments">Si marcaste "Otro", escríbelo aquí:</label>
+      <textarea id="comments" name="comments" rows="3" placeholder="Escríbelo aquí..."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>¿Por qué quieres ayudar?</legend>
+      <label><input type="checkbox" name="motivo" value="diversion"> Por diversión</label>
+      <label><input type="checkbox" name="motivo" value="dinero"> Quiero ganar dinero</label>
+      <label><input type="checkbox" name="motivo" value="otro"> Otro</label>
+
+      <label for="motivo-texto">Si marcaste "Otro", escríbelo aquí:</label>
+      <textarea id="motivo-texto" name="motivo_texto" rows="3" placeholder="Escríbelo aquí..."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Currículum</legend>
+      <label for="file">Sube tu currículum (PDF):</label>
+      <input type="file" id="file" name="archivo" accept=".pdf">
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de contacto</legend>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono">
+    </fieldset>
+
+    <fieldset>
+      <legend>Preferencia de contacto</legend>
+      <label><input type="radio" name="contact_pref" value="email" checked> Correo electrónico</label>
+      <label><input type="radio" name="contact_pref" value="telefono"> Teléfono</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Fecha de nacimiento</legend>
+      <input type="date" id="birthdate" name="birthdate">
+    </fieldset>
+
+    <div class="enviar">
+      <input type="submit" value="Finalizar">
+    </div>
+  </form>
+</section>
     <footer>Gracias por ver hasta el final. <a href="index.html">Haga click para poder regresar</a></footer>
 </body>
 </html>
